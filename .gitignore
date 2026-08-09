@@ -1,0 +1,22 @@
+# Datasets & heavy binary files
+Models/
+artifacts/
+Data/
+Files/
+*.pkl
+*.keras
+*.zip
+*.h5
+
+# Logs
+logs/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/

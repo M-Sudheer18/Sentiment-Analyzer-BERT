@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer</title>
+    <!-- Link to your CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar for Chat History -->
+        <aside class="sidebar">
+            <div class="branding">
+                <h2>THINK BIG.</h2>
+                <h2 class="accent-text">BUILD SMART.</h2>
+            </div>
+            <div class="history-container">
+                <h3>Analysis History</h3>
+                <ul id="chat-history" class="history-list">
+                    <!-- History items will be injected here by JS -->
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-main">
+            <div class="chat-header">
+                <div class="header-left">
+                    <button id="sidebar-toggle" class="icon-btn" title="Toggle Sidebar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                    <h1>Sentiment Intelligence</h1>
+                </div>
+                <div class="status-indicator">
+                    <span class="dot"></span> Analyzer Ready
+                </div>
+            </div>
+
+            <!-- Chat Messages Window -->
+            <div id="chat-window" class="chat-window">
+                <div class="message system-message">
+                    <div class="bubble">
+                        Welcome, Sudheer. The BERT Sentiment model is loaded and ready. 
+                        Enter your text below to analyze its sentiment.
+                    </div>
+                </div>
+                <!-- Dynamic messages go here -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-container">
+
+                <div class="disclaimer">
+                    Model Can Make Mistakes
+                </div>
+
+                <div class="input-box">
+                    <textarea id="user-input" placeholder="Type your text here to analyze sentiment..." rows="1"></textarea>
+
+                    <button id="send-btn" class="send-btn">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+    <!-- Link to your JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
