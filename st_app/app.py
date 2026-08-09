@@ -80,7 +80,7 @@ def main():
                     st.session_state.history.append({"text": prompt, "label": label})
                 except Exception as e:
                     logger.exception("Streamlit Prediction Error")
-                    st.error("Error: Unable to Process the request..")
+                    st.error(f"Error: {e}")
 
 if __name__ == "__main__":
     main()
