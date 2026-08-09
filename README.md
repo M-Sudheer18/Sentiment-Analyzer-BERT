@@ -38,7 +38,7 @@ The trained BERT model is hosted on **Hugging Face Hub** and can be dynamically 
 
 | Resource                  | Link                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------- |
-| 🚀 **Live Streamlit App** | [Launch Deployed Application](YOUR_STREAMLIT_DEPLOYMENT_LINK)                         |
+| 🚀 **Live Streamlit App** | [Launch Deployed Application](https://sentiment-intelligent.streamlit.app/)             |
 | 🤗 **Hugging Face Model** | [Sudheer17/Sentiment](https://huggingface.co/Sudheer17/Sentiment)                     |
 | 💻 **GitHub Repository**  | [Sentiment-Analyzer---BERT](https://github.com/M-Sudheer18/Sentiment-Analyzer---BERT) |
 | 👔 **LinkedIn Profile**   | [Connect on LinkedIn](https://www.linkedin.com/in/sudheer-muthyala-317180268)         |
