@@ -1,5 +1,6 @@
+<div align="center">
 # 🎭 Sentiment Intelligence — BERT
-
+</div>
 <div align="center">
 
 ## **THINK BIG. BUILD SMART.**
