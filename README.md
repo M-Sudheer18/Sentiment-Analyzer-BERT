@@ -1,5 +1,5 @@
 <div align="center">
-# 🎭 Sentiment Intelligence — BERT
+# *🎭 Sentiment Intelligence — BERT*
 </div>
 <div align="center">
 
