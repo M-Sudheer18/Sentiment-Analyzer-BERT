@@ -47,7 +47,7 @@ def main():
         st.session_state.messages = [
             {
                 "role": "assistant", 
-                "content": "Welcome, Sudheer. The BERT Sentiment model is loaded and ready. Enter your text below to analyze its sentiment."
+                "content": "Welcome. The BERT Sentiment model is loaded and ready. Enter your text below to analyze its sentiment."
             }
         ]
     # Render existing chat messages
